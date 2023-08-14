@@ -26,7 +26,7 @@ class MyPortal extends Portal
     public function onSuccess()
     {
  
-    $success = 'successpage.php';
+    $success = '/successpage.php';
 
     header("Location: $success");
 
@@ -35,7 +35,7 @@ class MyPortal extends Portal
     public function showError()
     {
         // Calls default error message
-        $success = 'successpage.php';
+        $success = '/successpage.php';
 
         header("Location: $success");
 
